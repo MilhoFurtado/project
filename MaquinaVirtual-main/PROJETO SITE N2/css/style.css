@@ -1,0 +1,81 @@
+Copy code
+/* Estilos para o header */
+header {
+  background-color: #259b3f;
+  color: #333131;
+  padding: 20px;
+}
+.h1 {
+    color: aqua;
+    text-align: center;
+    
+}
+
+/* Estilos para a navegação */
+nav {
+  background-color: #e4dddd;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  text-decoration: none;
+  justify-content: space-around;
+  line-height: 2;
+  font-size: 25px;
+  color: #359a80;
+}
+
+main {
+  padding: 20px;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  color: #333131;
+
+}
+
+h2 {
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.retangulo {
+    width: 100%;
+    height: 100px;
+    background-color: #83b3a4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    
+  }
+.ajuste-de-propaganda{
+    width: 100%;
+    height: 30%;
+}
+
+.ajuste-de-tamanho {
+    width: 45%;
+    height: 20%;
+    align-items: flex-end;
+    
+    float: right; /* Alinha a imagem à direita */
+     margin-left: 10px; /*Adiciona uma margem à esquerda da imagem para evitar sobreposição de texto */
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Curso de Linux</title>
+</head>
+
+<body>
+    
+  <header>
+    <div class="retangulo">
+        <h1>CURSO DE LINUX</h1>
+    </div>
+  </header>
+  
+  <nav>
+     <a href="index.html">Home</a>
+     <a href="Primeiros_Passos.html">Primeiros Passos</a>
+     <a href="Truques_do_terminal.html">Truques do terminal</a>
+  </nav>
+  
+  <main>
+    <h2> Instalando o APACHE pelo terminal. </h2>
+    <img src="imagens/update-software-upgrade-laptop-computer-install-1536x892.webp" alt="Imagem" class="ajuste-de-tamanho">
+    <ol>
+      <li>
+        <b>Abra o terminal:</b> Em muitas distribuições Linux, você pode abrir o terminal pressionando Ctrl + Alt + T. Se não for esse o caso, procure o terminal em seu menu de aplicativos.</li>
+      <br>
+
+      <li>
+        <b>Atualize o sistema:</b> Antes de instalar qualquer pacote, é uma boa prática atualizar o sistema. <br> Digite o seguinte comando no terminal e pressione Enter:<br> <br>
+        <i>sudo apt update </i>  <br> 
+        <i>sudo apt upgrade</i> <br> <br>
+        Isso irá atualizar a lista de pacotes disponíveis e instalar as atualizações disponíveis no sistema.
+      </li>
+      <br>
+      <li>
+        <b>Instale o Apache:</b> Agora, você pode instalar o Apache usando o comando apt. Digite o seguinte comando no terminal e pressione Enter: <br> <br>
+        <i>sudo apt install apache2 </i> <br> <br>
+        O sistema irá solicitar sua senha de administrador (sudo) para confirmar a instalação. Digite sua senha e pressione Enter. Em seguida, o sistema irá baixar e instalar o Apache.
+      </li>
+      <br>
+      <li>
+      <b>Inicie o Apache:</b> Após a instalação, o Apache é iniciado automaticamente. Você pode verificar se o serviço está em execução digitando o seguinte comando no terminal: <br> <br>
+        <i>sudo service apache2 status</i> <br> <br>
+        Se o Apache estiver em execução corretamente, você verá uma mensagem indicando que o serviço está ativo.
+      </li>
+    </ol>
+    <br>
+    <p>Agora você tem o Apache instalado em seu sistema Linux e pode começar a hospedar sites ou aplicativos da web. Os arquivos do site são armazenados no diretório "/var/www/html", onde você pode adicionar seus próprios arquivos HTML, CSS, JavaScript e outros recursos para exibi-los no navegador.</p>
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 Curso de Linux. Todos os direitos reservados.</p>
+    <p>Djalma tobler da costa; Vitoria Milho Furtado; Sandro Marcos Machiniski</p>
+  </footer>
+</body>
+</html>
